@@ -8,19 +8,21 @@
 
 body { 
   background-color: var(--grayishblue); 
+  max-width: 100vw; 
+  min-height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
 
 .whitebox {
   background-color: var(--white);
-  top: 50%;
   height: 310px;
   position: relative;
   width: 185px;
-  margin: auto;
   border-radius: 7%/5%;
   padding: 11px;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  
 }
 
 h1 {
